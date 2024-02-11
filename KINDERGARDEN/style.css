@@ -9,17 +9,41 @@
 /* core styles */
 
 :root {
-    --text-color: #00039b;
-    --hover-color: rgb(222, 5, 251);
+    --text-color: #120063;
+    --hover-color: rgb(251, 5, 173);
     --big-font:3.5rem;
     --normal-font:4rem;
+    --p-color: white;
+    --section-color: #797979;
 }
 
 .container {
-    width: 1200px;
+    width: 1170px;
     margin: 0 auto;
 }
 
+.blur-line {
+    display: block;
+    width: 65px;
+    height: 4px;
+    background-color: var(--hover-color);
+    border-radius: 4px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.section-title {
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--text-color);
+}
+
+.content {
+    color: var(--section-color);
+    line-height: 28px;
+}
 
 /* core styles */
 
@@ -28,12 +52,16 @@
     margin-right: 150px;
     color: var(--text-color);
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
 }
 
-.head-welcoms {
-    margin-bottom: 14px;
-    margin-left: 30px;
+.head-welcom i {
+    background: var(--hover-color);
+    color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
 }
 
 .head-welcom a {
@@ -46,22 +74,346 @@
     display: inline-block;
 }
 
-nav {
-    margin-left: 50px;
-}
-
 .main-navigtion__item a {
     color: var(--text-color);
-    font-weight: 500;
-    margin-right: 90px;
-    font-size: 16px;
+    font-weight: 600;
+    margin-right: 85px;
+    font-size: 14px;
+}
+
+.main-navigtion__item img {
+    margin-right: 80px;
 }
 
 .main-navigtion__item a:hover {
     color: var(--hover-color);
-    font-weight: 500;
+}
+
+/* /Header sections */
+
+/* main-header */
+.main-header {
+    margin-top: 30;
+    background-image: url(./images/pngtree-blue-background-childlike-background-simple-baby-products-image_4389.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    background-size: 100%;
+    margin-bottom: 50px;
+}
+
+.main-header__left {
+    padding-top: 50px;
+}
+.main-header__left p {
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+}
+
+.main-header__left h1 {
+    color: var(--text-color);
+    width: 30%;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-size: 34px;
+}
+
+.btn {
+    margin-top: 24px;
+    background: var(--hover-color);
+    color: white;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;   
+}
+
+.btn:hover {
+    scale: 1.070;
+    transition: all 0.5s;
+}
+/* main-header */
+
+
+/* about us section  */
+ .about-left p {
+    color: var(--section-color);
+    margin-bottom: 24px;
+}
+
+ .about-img {
+    display: inline-block;
+    margin-top: -670px;
+}
+
+ .about-img img {
+    border-radius: 50%;
+    float: right;
+    width: 50%;
+    margin-top: -330px;
+    border: 2px dashed var(--hover-color);
+    border-radius: 50%;
+}
+
+/* about us section  */
+
+.images img  {
+    margin-top: 40px;
+    width: 70%;
+    height: 250px;
+    margin-left: 150px;
+}
+
+/* our program */
+ .program {
+    margin-top: 50px;
+    margin-bottom: 200px;
+ }
+
+ .joha {
+    margin-left: 70px;
+ }
+
+ .program-box {
+    display: inline-block;
+    border-radius: 10px;
+    border-bottom: 3px solid var(--hover-color);
+    margin-right: 24px;
+    margin-top: 30px;
+ }
+
+ .program-title p {
+    color: var(--hover-color);
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+ }
+
+ .program-title {
+    padding-top: 50px;
+    text-align: center;
+ }
+
+ .program {
+    background-image: url(./images/horizontal-sky-with-cloud-background_1308-110533.jpg);
+    height: 300px;
+ }
+
+ .program-content__img img {
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+ }
+ .program-content {
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 24px;
+ }
+
+.program-content p {
+    margin-top: 10px;
+    line-height: 24px;
+    color: #797979;
+}
+
+.program-box:hover {
+    transition: all 0.5s;
+    box-shadow: 0px 16px 16px 5px rgb(0 0 0 / 20%);
+    transform: scale(1.055);
+}
+
+/* /our program */
+
+
+/* features section joha */
+
+.container__1 {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 
+.features-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
 
-/* /Header sections */
+.features-title span {
+    font-size: 12px;
+    color: rgb(125, 214, 0);
+    font-weight: 600;
+}
+
+.features-title h1 {
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.features-icon {
+    border-radius: 50px;
+    border: 2px dashed;
+    border-color: var(--hover-color);
+    width: 35%;
+    height: 60px;
+}
+
+.features-content span {
+    color: var(--hover-color);
+    font-weight: 600;
+    vertical-align: middle;
+    margin-left: 14px;
+
+}
+
+.features-left span {
+    padding-top: 500px;
+}
+
+.features-left i {
+    margin-top: 7px;
+    margin-left: 14px;
+    display: inline-block;
+}
+
+
+.border {
+    margin-top: 50px;
+}
+
+.border  {
+    border-radius: 50px;
+    border: 2px dashed;
+    border-color: #a7a7a7;
+    width: 35%;
+    height: 60px;
+}
+
+.border span {
+    color: var(--text-color);
+}
+
+
+.features-right {
+    float: right;
+    margin-top: -390px;
+    margin-right: 100px;
+}
+
+
+.block-title {
+    color: var(--text-color);
+}
+
+.block-title p {
+    line-height: 28px;
+    color: #797979;
+}
+
+.block-title i {
+    color: var(--hover-color);
+
+}
+
+.block-title span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-left: 7px;
+}
+
+.features {
+    margin-bottom: 100px;
+}
+/* /features section */
+
+
+/* album section */
+.container-album {
+    width: 1640px;
+    margin: 0 auto;
+}
+
+.album-title {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.album-title h1 {
+    font-size: 34px;
+}
+
+.album-title span {
+    color: rgb(0, 213, 221);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.album-title p {
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+    line-height: 26px;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+.blur-line_1 {
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    background-color: var(--hover-color);
+    border-radius: 4px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.gray-line {
+    display: inline-block;
+    width: 20px;
+    height: 4px;
+    background-color: gainsboro;
+    border-radius: 4px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 3px;
+}
+
+.album-img {
+    display: inline-block;
+}
+
+.album-joha {
+    width: 13%;
+    height: 300px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.album-joha:hover {
+    transform: scale(1.075);
+    transition: all 0.5s;
+}
+
+.all {
+    margin-bottom: 100px;
+}
+
+/* album section */
+
+/* event - section  */
+
+
+
+
+
+/* /event - section  */
+
+
+
+
+
+
+
