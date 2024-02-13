@@ -554,14 +554,11 @@ form input {
 }
 
 ::placeholder {
-    color: gainsboro;
-    opacity: 0.7;
+    color: white;
 }
 
-input data {
-    color: gainsboro;
+.block-form button:hover {
+    transition: all 0.5s;
+    transform: scale(1.075);
 }
-
-
-
 /* /block section */
