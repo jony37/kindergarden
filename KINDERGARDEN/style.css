@@ -534,7 +534,7 @@
     margin-bottom: 24px;
 }
 
-form input {
+.block-form form input {
     width: 300px;
     height: 45px;
     background-color: rgba(204, 204, 204, 0.568);
@@ -553,12 +553,175 @@ form input {
     border-radius: 5px;
 }
 
-::placeholder {
+.block-form input::placeholder {
     color: white;
 }
 
+.block-form input {
+    padding-left: 14px;
+}
+
 .block-form button:hover {
+    animation: rightToLeft 4s ease forwards;
+    background-color: white;
+    color: var(--hover-color);
     transition: all 0.5s;
-    transform: scale(1.075);
+}
+
+.block {
+    margin-bottom: 100px;
 }
 /* /block section */
+
+/* testimonial sections */
+.testimonial-title span {
+    font-size: 14px;
+    color: rgb(125, 214, 0);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.testimonial-title {
+    text-align: center;
+}
+
+.testimonial-content {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.testimonial-content img {
+    width: 60px;
+    border-radius: 100%;
+    height: 60px;
+    margin-right: 24px;
+    margin-bottom: 20px;
+    border: 1px dashed var(--hover-color);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.testimonial-content h4 {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 24px;
+    display: inline-block;
+}
+
+.testimonial-all {
+    margin-left: 100px;
+}
+
+.testimonial-subtitle {
+    font-size: 12px;
+    color: rgb(0, 195, 255);
+    font-weight: 600;
+}
+
+.width {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.joha-test {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.testimonial-icon form {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.testimonial-icon {
+    margin-left: 100px;
+}
+
+.testimonial-icon input {
+    width: 400px;
+    height: 55px;
+    border: none;
+    background-color: rgba(49, 49, 233, 0.041);
+    border-radius: 5px;
+}
+
+.testimonial-icon input::placeholder {
+    color: rgb(101, 101, 101);
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 104px;
+}
+
+.testimonial-icon input {
+    padding-left: 25px;
+}
+
+.icon {
+    background-color: var(--hover-color);
+    color: white;
+    height: 55px;
+    width: 55px;
+    padding-left: 8px;
+    padding-top: 9px;
+    vertical-align: middle;
+    margin-left: -10px;
+}
+
+.testimonial-icon form {
+    padding-bottom: -100px;
+}
+
+.testimonial-icon {
+    margin-bottom: 100px;
+}
+
+.joha-husn {
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+.testimonial-icon {
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 900px;
+    height: 100px;
+    box-shadow: 5px 10px 16px 10px rgba(128, 128, 128, 0.142);
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.icon:hover {
+    animation: rightToLeft 4s ease forwards;
+    background-color: white;
+    color: var(--hover-color);
+    transition: all 0.5s;
+}
+/* /testimonial sections */
+
+
+/* footer section */
+.footer {
+    background-color: rgb(61, 24, 149);
+    width: 100%;
+    height: 450px;
+    color: white;
+}
+
+.left-content p {
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+
+
+
+
+
+
+
+
+/*/ footer section */
